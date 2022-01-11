@@ -1,12 +1,12 @@
 {
-  "name": "Uzurion-Launcher",
+  "name": "VanillaPlus-Launcher",
   "version": "2.0.4",
-  "productName": "Uzurion Launcher",
-  "description": "Uzurion Launcher",
+  "productName": "VanillaPlus Launcher",
+  "description": "VanillaPlus Launcher",
   "main": "app/index.html",
-  "author": "Luuxis",
+  "author": "LeD0c4",
   "window": {
-    "title": "Uzurion update",
+    "title": "VanillaPlus  update",
     "width": 400,
     "height": 500,
     "frame": false,
@@ -15,7 +15,7 @@
     "icon": "app/assets/images/icons/icon.png"
   },
   "engines": {
-    "node": "16.x.x"
+    "node": "17.x.x"
   },
   "chromium-args": "--enable-logging --v=1 --disable-gpu --mixed-content",
   "url": "http://146.59.227.140",
@@ -33,7 +33,7 @@
   },
   "license": "CC0",
   "build": {
-    "appId": "Uzurion Launcher",
+    "appId": "VanillaPlus Launcher",
     "nwVersion": "0.55.0",
     "packed": true,
     "targets": [
@@ -56,16 +56,16 @@
     ],
     "outputPattern": "${NAME}-${PLATFORM}",
     "win": {
-      "productName": "Uzurion Launcher",
-      "companyName": "Uzurion Launcher",
+      "productName": "VanillaPlus Launcher",
+      "companyName": "VanillaPlus Launcher",
       "copyright": "copyright",
       "icon": "./app/assets/images/icons/icon.ico"
     },
     "mac": {
-      "displayName": "Uzurion-Launcher",
+      "displayName": "VanillaPlus-Launcher",
       "copyright": "copyright",
       "plistStrings": {
-        "CFBundleIdentifier": "Uzurion-Launcher"
+        "CFBundleIdentifier": "VanillaPlus-Launcher"
       }
     },
     "nsis": {
@@ -79,7 +79,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luuxis/Uzurion-Launcher.git"
+    "url": "git+https://github.com/LeD0c4/VanillaPlus-Launcher.git"
   },
   "dependencies": {
     "minecraft-java-core": "^1.1.5-alpha.4",
