@@ -18,7 +18,7 @@
     "node": "17.x.x"
   },
   "chromium-args": "--enable-logging --v=1 --disable-gpu --mixed-content",
-  "url": "http://146.59.227.140",
+  "url": "https://led0ck.fr/launcher/web",
   "user": "",
   "webkit": {
     "plugin": true
