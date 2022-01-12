@@ -79,8 +79,8 @@ function startLauncher(){
     "title": pkg.productName,
     "width": 1280,
     "height": 720,
-    "min_width": 1280,
-    "min_height": 720,
+    "min_width": 980,
+    "min_height": 552,
     "frame": (process.platform == "win32") ? false : true,
     "position": "center",
     "icon": "app/assets/images/icons/icon.png"

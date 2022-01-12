@@ -1,12 +1,12 @@
 {
-  "name": "VanillaPlus-Launcher",
-  "version": "1.0.1",
+  "name": "vanillaplus-launcher",
+  "version": "1.0.0",
   "productName": "VanillaPlus Launcher",
   "description": "VanillaPlus Launcher",
   "main": "app/index.html",
   "author": "LeD0c4",
   "window": {
-    "title": "VanillaPlus  update",
+    "title": "VanillaPlus update",
     "width": 400,
     "height": 500,
     "frame": false,
