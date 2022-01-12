@@ -1,6 +1,6 @@
 {
   "name": "vanillaplus-launcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "productName": "VanillaPlus Launcher",
   "description": "VanillaPlus Launcher",
   "main": "app/index.html",
