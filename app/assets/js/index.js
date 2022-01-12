@@ -81,8 +81,6 @@ function startLauncher(){
     "height": 720,
     "min_width": 1280,
     "min_height": 720,
-    "max_width": 1280,
-    "max_height": 720,
     "frame": (process.platform == "win32") ? false : true,
     "position": "center",
     "icon": "app/assets/images/icons/icon.png"
