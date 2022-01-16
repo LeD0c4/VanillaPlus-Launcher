@@ -4,15 +4,19 @@
 
 .overlay {
     position: absolute;
-    background: linear-gradient(rgba(27, 27, 27, 0.4),rgb(27, 27, 27)), url("../../images/background/wallpaper.jpg") no-repeat center center scroll;
-    height: 55vh;
-    width: 100%;
+    background-image:  url("http://led0ck.fr/img/img/logo-dev.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    height: 100%;
+    width: 87%;
 }
 
 .user-head {
-    margin-top: 3.5%;
+    position: relative;
+    margin-top: 30px;
     width: 47px;
-    margin-left: 2.5%;
+    margin-left: -23px;
     height: auto;
     transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
     border-radius: 15px;
@@ -25,16 +29,20 @@
 
 .settings-btn {
     position: absolute;
-    margin-top: 3.5%;
-    margin-left: 87.5%;
-    background: white;
+    margin-top: 50%;
+    margin-left: -24%;
+   
     border: none;
     width: 47px;
     height: 47px;
     transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
-    color: black;
+    color: rgb(167, 167, 167);
     border-radius: 15px;
     font-size: 200%;
+    opacity: 0.2;
+}
+.icon-settings {
+    opacity: 1;
 }
 
 .settings-btn:hover {
