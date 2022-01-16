@@ -48,11 +48,16 @@
 }
 
 .uzurionAppLoginLogo {
-  width: 30%!important;
-  margin-bottom: 50px;
+  position: absolute;
+  width: 54%!important;
+  left: 10px;
+  bottom: 70px;
 }
 
 .uzurionAppLoginCard {
+  position: absolute;
+  right: 10px;
+  top: 105px;
   width: 460px;
   background-color: #1F2022;
   border: none;

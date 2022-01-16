@@ -1,12 +1,12 @@
 {
-  "name": "vanillaplus-launcher",
-  "version": "1.0.3",
-  "productName": "VanillaPlus Launcher",
-  "description": "VanillaPlus Launcher",
+  "name": "selvania-launcher",
+  "version": "1.0.0",
+  "productName": "Selvania Launcher",
+  "description": "Selvania Launcher",
   "main": "app/index.html",
   "author": "LeD0c4",
   "window": {
-    "title": "VanillaPlus update",
+    "title": "Selvania update",
     "width": 400,
     "height": 500,
     "frame": false,
@@ -34,7 +34,7 @@
   },
   "license": "CC0",
   "build": {
-    "appId": "VanillaPlus Launcher",
+    "appId": "Selvania Launcher",
     "nwVersion": "0.55.0",
     "packed": true,
     "targets": [
@@ -57,16 +57,16 @@
     ],
     "outputPattern": "${NAME}-${PLATFORM}",
     "win": {
-      "productName": "VanillaPlus Launcher",
-      "companyName": "VanillaPlus Launcher",
+      "productName": "Selvania Launcher",
+      "companyName": "Selvania Launcher",
       "copyright": "copyright",
       "icon": "./app/assets/images/icons/icon.ico"
     },
     "mac": {
-      "displayName": "VanillaPlus-Launcher",
+      "displayName": "Selvania-Launcher",
       "copyright": "copyright",
       "plistStrings": {
-        "CFBundleIdentifier": "VanillaPlus-Launcher"
+        "CFBundleIdentifier": "Selvania-Launcher"
       }
     },
     "nsis": {
