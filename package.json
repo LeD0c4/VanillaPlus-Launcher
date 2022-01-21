@@ -16,7 +16,7 @@
   },
   "engines": {
     
-    "node": "17.x.x"
+    "node": "16.x.x"
   },
   "chromium-args": "--enable-logging --v=1 --disable-gpu --mixed-content",
   "url": "http://led0ck.fr/launcher/web",
@@ -35,7 +35,7 @@
   "license": "CC0",
   "build": {
     "appId": "Selvania Launcher",
-    "nwVersion": "0.55.0",
+    "nwVersion": "0.60.0",
     "packed": true,
     "targets": [
       "zip",
@@ -83,8 +83,7 @@
     "url": "git+https://github.com/LeD0c4/VanillaPlus-Launcher.git"
   },
   "dependencies": {
-    "minecraft-java-core": "^1.1.5-alpha.4",
-    "msmc": "^3.0.2",
+    "minecraft-java-core": "^1.1.7",
     "nw-autoupdater-luuxis": "^1.1.6"
   }
 }
