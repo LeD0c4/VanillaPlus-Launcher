@@ -8,10 +8,10 @@
 }
  .splash {
 	 position: absolute;
-	 top: 180px;
+	 top: 160px;
 	 left: 132px;
-	 width: 136px;
-	 height: 141px;
+	 width: 160px;
+	 height: 160px;
 	 transition: opacity .3s, top 1.5s;
 	 opacity: 0;
 	-webkit-user-select: none;
