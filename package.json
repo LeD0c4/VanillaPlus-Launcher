@@ -1,6 +1,6 @@
 {
   "name": "selvania-launcher",
-  "version": "1.0.1",
+  "version": "1.0.10",
   "productName": "Selvania Launcher",
   "description": "Selvania Launcher",
   "main": "app/index.html",
@@ -16,10 +16,10 @@
   },
   "engines": {
     
-    "node": "17.x.x"
+    "node": "16.x.x"
   },
   "chromium-args": "--enable-logging --v=1 --disable-gpu --mixed-content",
-  "url": "http://launcher.selvania.fr/",
+  "url": "http://launcher.selvania.fr",
   "user": "",
   "webkit": {
     "plugin": true
