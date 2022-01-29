@@ -1,6 +1,6 @@
 {
   "name": "selvania-launcher",
-  "version": "1.0.10",
+  "version": "1.0.1",
   "productName": "Selvania Launcher",
   "description": "Selvania Launcher",
   "main": "app/index.html",

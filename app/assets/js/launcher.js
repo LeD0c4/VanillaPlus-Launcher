@@ -74,7 +74,8 @@ config.config().then(async (config) => {
           })
         } else if(user.meta.type === "mojang") {
           if(user.meta.offline) continue
-          await auth.refreshAuth(user).then(mojang => file.Login[mojang.uuid] = mojang).catch(error => {
+          await auth.refreshAuth(user).t
+          hen(mojang => file.Login[mojang.uuid] = mojang).catch(error => {
             delete file.Login[user.uuid]
             changePanel("", "login")
           })
@@ -91,5 +92,6 @@ config.config().then(async (config) => {
   } else {
     changePanel("", "login")
   }
+  
   document.querySelector(".start-loader").style.display = "none"
 })
