@@ -1,9 +1,10 @@
 @import "settings/resolution.css";
 @import "settings/java-memory.css";
+@import "settings/account.css";
 
 
 .settingsNavbtn {
-  width: 10%;
+  width: 12%;
   text-align: -webkit-center;
   color: white;
   margin: 20% 0%;
@@ -13,19 +14,52 @@
   display: flex;
   border: none;
   background: none;
-  color: #64bf6d80;
+  color: #1889bd;
   font-size: 140%;
   font-weight: bolder;
   margin: 7% 0%;
   padding: 0;
+  transition-duration: 0.4s;
 }
 
 .tabsettings {
   position: absolute;
   border-radius: 25px;
   background: rgb(48, 48, 48);
-  padding: 2%;
-  width: 90%;
-  height: 80%;
-  margin: 10% 10%;
+  padding: 5%;
+  width: 86%;
+  height: 78%;
+  margin: 10% 11%;
+}
+.setting-logo-selvania {
+  position: absolute;
+  background-image: url("/app/assets/images/logo-sett.png");
+  background-size: 100px 100px;
+  background-repeat: no-repeat;
+  top: 2%;
+  left: 50%;
+  width: 10%;
+  height: 15%;
+
+ 
+}
+.overlay-sett {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+}
+.overlay-sett-logo {  
+  position:absolute;
+  background-image:  url("/app/assets/images/background/wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.settingsbtn:hover {
+  background-color: rgb(255, 255, 255, .2);
+  color: #1b81cd;
+  border-radius: 12px;
+  padding: 5px;
 }

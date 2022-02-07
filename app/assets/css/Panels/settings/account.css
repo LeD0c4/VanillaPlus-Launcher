@@ -1,0 +1,32 @@
+.add-account {
+    background-color: transparent;
+    border: none;
+}
+.path-button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
+    box-shadow: 2px 5px 8px -5px dimgrey;
+    margin: 15px;
+    transition-duration: 0.4s;
+}
+.path {
+    border-radius: 4px;
+    background-color: white;
+}
+.add-account:hover, .path-button:hover {
+    background-color: #444444;
+}
+.add-account-logo {
+    border-radius: 12px;
+    background-color: aqua; 
+    transition-duration: 0.4s;
+}
+.add-account-logo:hover {
+    background-color: rgb(7, 32, 32); 
+    border: none;
+}

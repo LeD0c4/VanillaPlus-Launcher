@@ -38,6 +38,9 @@ function changePanel(V1, V2){
     document.querySelector(".pseudo").disabled = false
     document.querySelector(".microsoft-btn").disabled = false
     document.querySelector(".password").disabled = false
+    document.querySelector('.overlay-logo').disabled = "false"
+    
+   
   } else {
     document.querySelector(`.${V1}`).style.display = "none"
     document.querySelector(`.${V2}`).style.display = "block"
